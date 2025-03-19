@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const init = async () => {
     await liff.init({
       liffId: '2007081934-b4W0oD5Q',
-      withLogin: true
+      withLoginOnExternalBrowser: true
     });
   }
 
